@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/today_date_title"
+        android:textSize="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <include layout="@layout/today_date_picker"></include>
+
+    <TextView
+        style="@style/content_textview"
+        android:text="@string/birth_date_title"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+
+    <include layout="@layout/birth_date_picker"></include>
+
+    <include layout="@layout/calculate_clear"></include>
+
+    <TextView
+        style="@style/content_textview"
+        android:text="@string/age"/>
+
+    <include layout="@layout/age"></include>
+
+    <TextView
+        style="@style/content_textview"
+        android:text="@string/next_birthday" />
+
+    <include layout="@layout/next_birthday"></include>
+
+    <TextView
+        style="@style/content_textview"
+        android:text="@string/extra" />
+
+    <include layout="@layout/extra"></include>
+
+    <TextView
+        style="@style/content_textview"
+        android:text="@string/upcoming_birthdays"/>
+
+    <include layout="@layout/upcoming_birthdays"></include>
+
+</LinearLayout>
+</ScrollView>

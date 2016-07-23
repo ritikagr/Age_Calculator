@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:id="@+id/today_date"
+    android:background="@drawable/border"
+    tools:showIn="@layout/content_main">
+
+    <TextView
+        android:id="@+id/day"
+        android:hint="@string/day"
+        style="@style/custom_textview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/text1"
+        android:layout_toRightOf="@id/day"
+        android:text="/"/>
+
+    <TextView
+        android:id="@+id/month"
+        android:hint="@string/month"
+        android:layout_toRightOf="@id/text1"
+        style="@style/custom_textview"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text2"
+        android:textSize="20dp"
+        android:layout_toRightOf="@id/month"
+        android:text="/"/>
+
+    <TextView
+        android:id="@+id/year"
+        android:hint="@string/year"
+        android:layout_toRightOf="@id/text2"
+        style="@style/custom_textview"/>
+
+    <ImageButton
+        android:id="@+id/pick_today_date"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        style="@style/custom_date_picker_button"
+        />
+</RelativeLayout>

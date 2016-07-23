@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/content_main"
+    android:id="@+id/extra"
+    android:layout_margin="8dp"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/total_years"
+            style="@style/extra_textview"/>
+
+        <TextView
+            android:text="@string/total_months"
+            style="@style/extra_textview"/>
+
+        <TextView
+            android:text="@string/total_weeks"
+            style="@style/extra_textview"/>
+
+        <TextView
+            android:text="@string/total_days"
+            style="@style/extra_textview"/>
+
+        <TextView
+            android:text="@string/total_hours"
+            style="@style/extra_textview"/>
+
+        <TextView
+            android:text="@string/total_minutes"
+            style="@style/extra_textview"/>
+
+        <TextView
+            android:text="@string/total_seconds"
+            style="@style/extra_textview"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:showIn="@layout/content_main"
+    android:id="@+id/age"
+    android:layout_margin="8dp"
+    android:background="@drawable/border">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/age_textview"
+            android:text="@string/years" />
+
+        <TextView
+            style="@style/age_textview"
+            android:text="@string/years_value" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/age_textview"
+            android:text="@string/months" />
+
+        <TextView
+            style="@style/age_textview"
+            android:text="@string/months_value" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/age_textview"
+            android:text="@string/days" />
+
+        <TextView
+            style="@style/age_textview"
+            android:text="@string/days_value" />
+    </LinearLayout>
+
+</LinearLayout>
