@@ -21,6 +21,7 @@
 
         <TextView
             style="@style/next_birthday_textview"
+            android:id="@+id/next_birthday_months"
             android:text="@string/months_value" />
     </LinearLayout>
 
@@ -36,6 +37,7 @@
 
         <TextView
             style="@style/next_birthday_textview"
+            android:id="@+id/next_birthday_days"
             android:text="@string/days_value" />
     </LinearLayout>
 

@@ -21,6 +21,7 @@
 
         <TextView
             style="@style/age_textview"
+            android:id="@+id/years"
             android:text="@string/years_value" />
     </LinearLayout>
 
@@ -36,6 +37,7 @@
 
         <TextView
             style="@style/age_textview"
+            android:id="@+id/months"
             android:text="@string/months_value" />
     </LinearLayout>
 
@@ -51,6 +53,7 @@
 
         <TextView
             style="@style/age_textview"
+            android:id="@+id/days"
             android:text="@string/days_value" />
     </LinearLayout>
 

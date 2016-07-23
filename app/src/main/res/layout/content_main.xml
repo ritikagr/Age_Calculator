@@ -45,17 +45,5 @@
 
     <include layout="@layout/next_birthday"></include>
 
-    <TextView
-        style="@style/content_textview"
-        android:text="@string/extra" />
-
-    <include layout="@layout/extra"></include>
-
-    <TextView
-        style="@style/content_textview"
-        android:text="@string/upcoming_birthdays"/>
-
-    <include layout="@layout/upcoming_birthdays"></include>
-
 </LinearLayout>
 </ScrollView>

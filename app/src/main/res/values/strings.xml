@@ -16,15 +16,6 @@
     <string name="years_value">"00"</string>
     <string name="months_value">"00"</string>
     <string name="days_value">"00"</string>
-    <string name="extra">Extra</string>
-    <string name="upcoming_birthdays">Upcoming BirthDays</string>
 
-    <string name="total_years">Total Years</string>
-    <string name="total_months">Total Months</string>
-    <string name="total_weeks">Total Weeks</string>
-    <string name="total_days">Total Days</string>
-    <string name="total_hours">Total Hours</string>
-    <string name="total_minutes">Total Minutes</string>
-    <string name="total_seconds">Total Seconds</string>
 
 </resources>
