@@ -1,0 +1,6 @@
+{
+  "name": "Age calculator",
+  "tagline": "This app will calculate age according to birthdate and will show upcoming birthday.",
+  "body": "### Welcome to \"Age calculator\" Android Application project\r\n\r\nIn this app there is option to enter date of birth and you can also edit today date and on the basis of today date this app will calculate age of the person and will also display remaining days and months for next birthday.\r\n\r\n![App Screenshot](https://drive.google.com/file/d/0B7uRbbCdG8WPRElndUd0bHE2ZHM/view?usp=sharing)\r\n\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
